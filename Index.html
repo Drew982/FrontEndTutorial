@@ -6,21 +6,41 @@
     <style>
         #Blue
         {
-            color:blue;
+            color: blue;
         }
+
         .Red
         {
-            color:red;
+            color: red;
+        }
+
+        #border-box
+        {
+            border-bottom: 5px solid black;
+            border-left: 5px solid black;
+            border-radius: 50%;
+            display: inline-block;
+            padding: 0 100px 200px 75px;
+            background-color: #60cec4;
+
+            -webkit-transition: background-color 2s;
+        }
+        #border-box:hover
+        {
+            background-color: yellow;
         }
     </style>
 </head>
 <body>
+
 <h1 id="Blue">Hello World</h1>
 <!--<a href="https://www.google.com">Anchor</a>-->
 <p>Paragraph</p>
-<div>
+
+<div id="border-box">
     <h1 class="Red">Hola</h1>
     <p class="Red">Dick</p>
+
 </div>
 
 </body>
